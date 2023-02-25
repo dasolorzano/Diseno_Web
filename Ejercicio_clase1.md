@@ -1,9 +1,9 @@
 file:///C:/Users/PILARES/Documents/holamundo.html
 
 
-<h1>🌯Itacate🌯</h1>
-<h2>Los Burritos mas sabrosos </h2>
-<h3>Combina hasta tres ingredientes</h3>
+<h1><center>🌯Itacate🌯</center></h1>
+<h2><center>Los Burritos mas sabrosos</center></h2>
+<h3><center>Combina hasta tres ingredientes</center></h3>
 <img src="burrito.png" alt="">
 <h2>Menu</h2>
 <ul>
