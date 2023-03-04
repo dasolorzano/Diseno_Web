@@ -26,7 +26,7 @@
     <tr>
         <td rowspan="6">Agua</td>
         <th>Sabor</th>
-        <th >Vaso</th>
+        <th>Vaso</th>
         <th>Litro</th>
     </tr>
     <tr>
@@ -56,13 +56,80 @@
     </tr>
 
 </table>
+<hr><center> Ordena Tu Pedido</center></hr>
+<form action="https://formspree.io/f/mayzjaqr" method="POST">
+    Tu nombre aqui:<input placeholder=" Nombre    Apellido       " size="40" name="nombre">
+    <br>Direccion: <input placeholder="Calle No.        Col.     Codigo Postal" name="direccion" size="50">
+    <br>Telefono: <input value="52" minlength="12" maxlength="12" name="telefono">
+    <br>Correo electronico <input email="" name="correo electronico"><br><br>
 
-<hr><p><center><form action="get"><b> Ordena Tu Pedido</p></center></p>
 
-<br> Tu nombre aqui:<input placeholder="            Nombre                   Apellido" size="40">
-<br> Direccion: <input placeholder="Calle          No.                       Col.                        Codigo Postal  " size="50">
-<br> Telefono: <input value="+52"
+    <br><br><b>Orden 1 alimentos</b><br><br>
+    <select >
+    <option value="5">Pollo </option>
+   <option value="5"> Cerdo</option>
+    <option value="5">Res</option>
+    <option value="5">Vegetales</option>
+    </select>
+Cuantos<input type="number" min="1" max="100">
+
+    <input type="radio" value="Cebolla" name="cebolla" >cebolla
+    <input type="radio" value="Lechiga" name="Lechuga" >lechuga
+    <input type="radio" value="crema" name="crema" >crema 
+    <input type="radio" value="arroz" name="arroz" >arroz 
+    <input type="radio" value="frijles" name="frijoles" >frijoles
+    <input type="radio" value="Rojo" name="salsa" >salsa roja 
+    <input type="radio" value="Verde" name="salsa" >salsa verde 
+    <input type="radio" value="diabla" name="salsa" >salsa diable 
+    <input type="radio" value="Verde" name="salsa" >salsa verde
+    <input type="radio" value="Chipotle" name="salsa" >salsa chipotle  
+
+    <br><br><b>Orden 2 alimentos</b><br><br>
+    <select >
+    <option value="5">Pollo </option>
+   <option value="5"> Cerdo</option>
+    <option value="5">Res</option>
+    <option value="5">Vegetales</option>
+    </select>
+Cuantos<input type="number" min="1" max="100">
+
+    <input type="radio" value="Cebolla" name="cebolla" >cebolla
+    <input type="radio" value="Lechiga" name="Lechuga" >lechuga
+    <input type="radio" value="crema" name="crema" >crema 
+    <input type="radio" value="arroz" name="arroz" >arroz 
+    <input type="radio" value="frijles" name="frijoles" >frijoles
+    <input type="radio" value="Rojo" name="salsa" >salsa roja 
+    <input type="radio" value="Verde" name="salsa" >salsa verde 
+    <input type="radio" value="diabla" name="salsa" >salsa diable 
+    <input type="radio" value="Verde" name="salsa" >salsa verde
+    <input type="radio" value="Chipotle" name="salsa" >salsa chipotle  
+
+    <br><br><b>Orden de bebidas</b><br><br>
+    <select >
+    <option value="5">Fresa </option>
+   <option value="5"> Limon</option>
+    <option value="5">Naranja</option>
+    <option value="5">Horchata</option>
+    </select>
+Cuantos<input type="number" min="1" max="100">
+
+    <input type="radio" value="Sin hielo" name="hileo no" >sin hielo
+    <input type="radio" value="con hielo" name="con hielo" >con hielo
+    
+
+
+
+
+<p><br> <input type="submit" value="Enviar"></p>
+<input type="reset" value="Borrar">
+
 
 </form>
+
+        
+
+
+
+
 
 </dt>
