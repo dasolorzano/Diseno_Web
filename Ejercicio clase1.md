@@ -59,7 +59,7 @@
 </table>
 
 
-<hr><center>Ordena Tu Pedido</center></hr>
+<h3><center>Ordena Tu Pedido</center></h3>
 <form action="https://formspree.io/f/mayzjaqr" method="POST">
     Tu nombre aqui:<input placeholder=" Nombre    Apellido       " size="40" name="nombre">
     <br>Direccion: <input placeholder="Calle No.        Col.     Codigo Postal" name="direccion" size="50">
@@ -119,8 +119,6 @@ Cuantos<input type="number" min="1" max="100">
     <input type="radio" value="Sin hielo" name="hileo no" >sin hielo
     <input type="radio" value="con hielo" name="con hielo" >con hielo
     
-
-
 
 
 <p><br> <input type="submit" value="Enviar"></p>
