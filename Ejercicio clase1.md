@@ -18,6 +18,7 @@
 </dt>
 <dt>El guapo
     <dd>pollo con guacamole.................$45</dd>
+</dt>
 
 <br><center><table border="1" ></center>
     <tr>
@@ -56,7 +57,9 @@
     </tr>
 
 </table>
-<hr><center> Ordena Tu Pedido</center></hr>
+
+
+<hr><center>Ordena Tu Pedido</center></hr>
 <form action="https://formspree.io/f/mayzjaqr" method="POST">
     Tu nombre aqui:<input placeholder=" Nombre    Apellido       " size="40" name="nombre">
     <br>Direccion: <input placeholder="Calle No.        Col.     Codigo Postal" name="direccion" size="50">
