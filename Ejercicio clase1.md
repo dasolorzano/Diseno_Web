@@ -1,4 +1,4 @@
-<h1><center>🌯Itacate🌯</center></h1>
+<h1><center><u>Itacate</u></center></h1>
 <h2><center>Los Burritos mas sabrosos</center></h2>
 <h3>Combina hasta tres ingredientes</h3>
 <img src="burrito.png" alt="">
