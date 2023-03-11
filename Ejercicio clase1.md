@@ -206,7 +206,7 @@
     <p><br> <input type="submit" value="Enviar">
     </p>
     <input type="reset" value="Borrar">
-    ß
+    
     
     </form>
     
