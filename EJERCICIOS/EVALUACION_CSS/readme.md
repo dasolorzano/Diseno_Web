@@ -10,7 +10,7 @@ Preguntas:
 
 1. ¿Qué significa CSS? (valor 0.25)
 
-          a) Cascading Style Sheets
+          X) Cascading Style Sheets
           b) Computer Style Sheets
           c) Creative Style Sheets
           d) Colorful Style Sheets
@@ -19,13 +19,13 @@ Preguntas:
 (valor 0.25)
 
           a) <style src="mystyle.css">
-          b) <link rel="stylesheet" type="text/css" href="style.css">
+          X) <link rel="stylesheet" type="text/css" href="style.css">
           c) <stylesheet>mystyle.css</stylesheet>
           
 3. ¿En qué parte de un documento HTML es el lugar correcto para hacer referencia a
 una hoja de estilo externa? (valor 0.25)
 
-          a) En la sección <head>
+          X) En la sección <head>
           b) En la sección <body>
           c) Al final del documento
           
@@ -33,25 +33,25 @@ una hoja de estilo externa? (valor 0.25)
  
           a) <css>
           b) <script>
-          c) <style>
+          X) <style>
           
  5. ¿Qué atributo HTML se usa para definir estilos en línea? (valor 0.25)
 
           a) font
-          b) styles
+          X) styles
           c) class
           
  6. ¿Cuál es la sintaxis CSS correcta? (valor 0.25)
 
           a) {body;color:black;}
-          b) body {color: black;}
+          X) body {color: black;}
           c) body:color=black;
           d) {body:color=black;}
           d) style
           
  7. ¿Cómo se inserta un comentario en un archivo CSS? (valor 0.25)
 
-          a) /* esto es un comentario */
+          X) /* esto es un comentario */
           b) // esto es un comentario
           c) // esto es un comentario //
           d) ' esto es un comentario
@@ -59,33 +59,33 @@ una hoja de estilo externa? (valor 0.25)
 8. ¿Qué propiedad se utiliza para cambiar el color de fondo? (valor 0.25)
 
           a) bgcolor
-          b) background-color
+          X) background-color
           c) color
           
 9. ¿Cómo se agrega un color de fondo para todos los elementos h1 (valor 0.25)
   
           a) all.h1 {background-color:#FFFFFF;}
-          b) h1 {background-color:#FFFFFF;}
+          X) h1 {background-color:#FFFFFF;}
           c) h1.all {background-color:#FFFFFF;}
   
 10. ¿Qué propiedad CSS se usa para cambiar el color del texto de un elemento? (valor 0.25)
   
           a) fgcolor
           b) text-color
-          c) color
+          X) color
   
  11. ¿Qué propiedad CSS controla el tamaño del texto? (valor 0.25
   
           a) font-style
           b) text-style
-          c) font-size
+          X) font-size
           d) text-size
   
  12. ¿Cuál es la sintaxis CSS correcta para poner en negrita todos los elementos p?(valor 0.25)
   
           a) <p style=\"text-size:bold;\">
           b) p {text-size:bold;}
-          c) p {font-weight:bold;}
+          X) p {font-weight:bold;}
           d) <p style=\"font-size:bold;\">
   
 13. ¿Cómo hacer que cada palabra en un texto comience con una letra mayúscula? (valor 0.25)
