@@ -91,7 +91,7 @@ una hoja de estilo externa? (valor 0.25)
 13. ¿Cómo hacer que cada palabra en un texto comience con una letra mayúscula? (valor 0.25)
   
           a) transform:capitalize
-          b) text-transform:capitalize
+          X) text-transform:capitalize
           c) No puedes hacer eso con CSS
           d) text-style:capitalize
   
@@ -99,13 +99,13 @@ una hoja de estilo externa? (valor 0.25)
   
           a) font-weight
           b) font-family
-          c) font-style
+          X) font-style
   
 15. ¿Cómo pones el texto en negrita? (valor 0.25)
   
           a) style:bold;
           b) font:bold;
-          c) font-weight:bold;
+          X) font-weight:bold;
   
 16. ¿Cómo se muestra un borde como este? (valor 0.25)
 
@@ -117,15 +117,15 @@ El borde izquierdo = 20 píxeles
 
 El borde derecho = 1 píxel
   
-          a) border-width:10px 1px 5px 20px;
+          X) border-width:10px 1px 5px 20px;
           b) border-width:5px 20px 10px 1px;
           c) border-width:10px 20px 5px 1px;
-          d) border-width:10px 5px 20px 1px; (valor 0.25)
+          e) border-width:10px 5px 20px 1px; (valor 0.25)
           
 17. ¿Qué propiedad se usa para cambiar el margen izquierdo de un elemento? (valor 0.25)
 
           a) padding-left
-          b) margin-left
+          X) margin-left
           
 18. Al usar la propiedad de relleno (padding); ¿Está permitido usar valores negativos? (valor 0.25)
 
@@ -138,7 +138,7 @@ El borde derecho = 1 píxel
             a) *demo
             b) #demo
             c) .demo
-            d) demo
+            x) demo
             
 20.¿Cómo se seleccionan elementos con el nombre de clase 'test'? (valor 0.25)
 
