@@ -130,7 +130,7 @@ El borde derecho = 1 píxel
 18. Al usar la propiedad de relleno (padding); ¿Está permitido usar valores negativos? (valor 0.25)
 
             a) No
-            b) Sí
+            X) Sí
             c) indent
             
  19. ¿Cómo se selecciona un elemento con id 'demo'? (valor 0.25)
@@ -142,7 +142,7 @@ El borde derecho = 1 píxel
             
 20.¿Cómo se seleccionan elementos con el nombre de clase 'test'? (valor 0.25)
 
-            a) *test
+            X) *test
             b) .test
             c) #test
             d) test
@@ -150,27 +150,27 @@ El borde derecho = 1 píxel
 21. ¿Cómo se seleccionan todos los elementos p dentro de un elemento div? (valor 0.25)
 
             a) div.p
-            b) div p
+            X) div p
             c) div + p
             
 22.¿Cómo se agrupan los selectores? (valor 0.25)
 
             a) Separe cada selector con un espacio
             b) Separe cada selector con un signo más
-            c) Separe cada selector con una coma
+            X) Separe cada selector con una coma
             
 23. ¿Cuál es el valor predeterminado de la propiedad posición? (valor 0.25)
 
             a) absolute
             b) fixed
             c) relative
-            d) static
+            X) static
             
  24.¿Cómo se hace una lista que enumere sus elementos con cuadrados? (valor 0.25)
  
             a) list-type: square;
             b) list: square;
-            c) list-style-type: square;
+            X) list-style-type: square;
             
 Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica de la
 maquetación en código html y css, valor 36)
