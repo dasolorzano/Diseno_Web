@@ -255,13 +255,14 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 }
 
 header img{
-    width:32%;
+    width:15%;
     padding-left: 20px 
 }
 
 nav{
     display: flex;
     color: darkgreen;
+    justify-content:right;
     justify-content: space-between;
     width: 100%;
     font-weight:bold;
@@ -277,58 +278,67 @@ div{
 
 
 ul{
-    color: darkgreen;
-    display: flex; 
-    justify-content:right; 
-    align-items: center; 
- /* list-style-type: neno; */
+    display: flex;  
 }
 
 li{
     margin-right:20px;
+    color: darkgreen; 
     list-style-type: none;
+    list-style-position: right;
 }
 
-main{
-    height: 60vh;
-    background: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items:center;
-    display: flex;
-    }
 
-#w{
-    color: white;
-    text-align: right;
-    font-size: 60px;
-    width: 55%;
-    }
-
-p{
-    color: black;
+#ama{
+    color: goldenrod;
     text-align: center;
 }
 
-.ret{
-    margin: 10px;
-}
+main
+ {
+ height: 60vh;
+ background: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ }
 
-img{
-    height: 5vh;
-}
+ #w
+ {
+ color: white;
+ text-align: right;
+ font-size: 60px;
+ width: 55%;
+ }
 
-span{
-    font-size: 75px;
-    font-weight: bold;
-}
+ p
+ {
+ color: black;
+ text-align: center;
+ }
 
-footer{ 
-    width: 100%; 
-    height: 15vh; 
-    text-align: center;
-}
+ .ret
+ {
+ margin: 10px;
+ }
+
+ img
+ {
+ height: 5vh;
+ }
+
+ span
+ {
+ font-size: 75px;
+ text-width: bold;
+ }
+
+ nav
+ {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ }
 
           
  Ingresa el link a tu página del proyecto final
