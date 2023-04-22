@@ -199,7 +199,7 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 -El texto alternativo para la primer imagen imagen debe ser “Gobierno de la Ciudad de México”
 
 
-          INGRESA AQUI EL CÓDIGO HTML
+                              **INGRESA AQUI EL CÓDIGO HTML
           
           <html lang="en">
 <head>
@@ -246,8 +246,89 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
           
           
           
-          INGRESA AQUI EL CSS
+                                        **INGRESA AQUI EL CSS
           
-          
+          k*{
+    margin: 0;
+    padding: 0;
+    font-family:'open sans'sans-serif;
+}
+
+header img{
+    width:32%;
+    padding-left: 20px 
+}
+
+nav{
+    display: flex;
+    color: darkgreen;
+    justify-content: space-between;
+    width: 100%;
+    font-weight:bold;
+    font-size:25px;
+    padding:20px;
+}
+
+
+div{
+    width: 60%;
+    text-align: right;
+}
+
+
+ul{
+    color: darkgreen;
+    display: flex; 
+    justify-content:right; 
+    align-items: center; 
+ /* list-style-type: neno; */
+}
+
+li{
+    margin-right:20px;
+    list-style-type: none;
+}
+
+main{
+    height: 60vh;
+    background: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items:center;
+    display: flex;
+    }
+
+#w{
+    color: white;
+    text-align: right;
+    font-size: 60px;
+    width: 55%;
+    }
+
+p{
+    color: black;
+    text-align: center;
+}
+
+.ret{
+    margin: 10px;
+}
+
+img{
+    height: 5vh;
+}
+
+span{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+footer{ 
+    width: 100%; 
+    height: 15vh; 
+    text-align: center;
+}
+
           
  Ingresa el link a tu página del proyecto final
