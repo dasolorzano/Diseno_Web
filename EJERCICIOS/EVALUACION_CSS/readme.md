@@ -201,6 +201,48 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
           INGRESA AQUI EL CÓDIGO HTML
           
+          <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de Codigo - Gobierno de la Ciudad de Mexico</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg" alt="Gobierno de la Ciudad de México">
+        <nav>
+            <div>
+            <ul>
+                <a href=""><li>Residentes</li> </a>
+                <a href=""><li>Negocios</li></a>
+                <a href=""><li>Visitantes</li></a>
+                <a href=""><li>Gobierno</li></a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <pid="w">
+                <span>></span>APRENDE A PROGRAMAR<br> EN LAS <span>ESCUELAS DE CODIGO</span><br> DE LA CDMX
+            </p>
+        </div>
+    </main>
+    <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg" alt="ciudad de mexico">
+    <footer>
+        <p id="ama">
+            ¿Quien se puede inscribir?
+        </p>
+        <p>Cualquier persona que quiera aprender a programar codigo y con 4-8 horasdisponibles a la semana...<br>
+            *Menores de edad deberan entrar a las instalaciones acompañado de un adulto*
+        </p>
+    </footer>
+</body>
+</html>
+
+
           
           
           
