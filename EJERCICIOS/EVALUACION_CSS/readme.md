@@ -201,46 +201,44 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
                               **INGRESA AQUI EL CÓDIGO HTML
           
-          <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escuela de Codigo - Gobierno de la Ciudad de Mexico</title>
+       <!doctype html>
+    <head>
     <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-    <header>
-        <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg" alt="Gobierno de la Ciudad de México">
-        <nav>
-            <div>
-            <ul>
-                <a href=""><li>Residentes</li> </a>
-                <a href=""><li>Negocios</li></a>
-                <a href=""><li>Visitantes</li></a>
-                <a href=""><li>Gobierno</li></a>
-            </ul>
-            </div>
-        </nav>
+    <title>Evaluación</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+            <a href=""><img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg"></a>
+            <hr>
+                <ul>
+                    <a href=""><li>Residentes</li></a>
+                    <a href=""><li>Negocios</li></a>
+                    <a href=""><li>Visitantes</li></a>
+                    <a href=""><li>Gobierno</li></a>
+                </ul>
+            </nav>
     </header>
+
     <main>
-        <div>
-            <pid="w">
-                <span>></span>APRENDE A PROGRAMAR<br> EN LAS <span>ESCUELAS DE CODIGO</span><br> DE LA CDMX
-            </p>
-        </div>
+        <article>
+            <div>
+                <div1><span>></span>APRENDE A PROGRAMAR<br></div1>
+                <div2>EN LAS <span>ESCUELAS</span><br></div2>
+                <div3><span>DE CODIGO</span><br></div3>
+                <div4>DE LA CDMX</div4>
+            </div>
+        </article>
     </main>
-    <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg" alt="ciudad de mexico">
+
     <footer>
-        <p id="ama">
-            ¿Quien se puede inscribir?
-        </p>
-        <p>Cualquier persona que quiera aprender a programar codigo y con 4-8 horasdisponibles a la semana...<br>
-            *Menores de edad deberan entrar a las instalaciones acompañado de un adulto*
-        </p>
+        <h2> ¿Quien se puede inscribir?</h2><br>
+        Cualquier persona que quiera aprender a programar codigo y cuente con 4-8 horas disponibles a la semana.<br>
+        <p>*Menores de edad deberan entrar a las instalaciones acompañados de un  adulto.</p><br>
     </footer>
-</body>
-</html>
+    <body>
+<html>
 
 
           
@@ -248,97 +246,108 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
           
                                         **INGRESA AQUI EL CSS
           
-          k*{
-    margin: 0;
-    padding: 0;
-    font-family:'open sans'sans-serif;
+k*{
+padding: 0%;
+margin: 0%;
 }
 
-header img{
-    width:15%;
-    padding-left: 20px 
+body{
+background-color: white;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Radio Canada', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+background-color: white;
 }
 
 nav{
-    display: flex;
-    color: darkgreen;
-    justify-content:right;
-    justify-content: space-between;
-    width: 100%;
-    font-weight:bold;
-    font-size:25px;
-    padding:20px;
+align-items: center;
+justify-content: space-between
+display: flex;
+margin: 2em;
+margin-left: 5em;
 }
 
+hr{
+margin-left: -5em;
+margin-right: -2em;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
+header ul{
+align-items: center;
+justify-content: space-between;
+display: flex;
+margin-left: 77em;
+margin-right: 3em;
+}
+
+header li{
+color: green;
+padding: 0%;
+padding-left: 2em;
+font-size: 15pt;
+}
+
+a{
+text-decoration: none;
+list-style: none;
+font-weight: bold;
+}
+
+main{
+padding: 6%;
+background: url(" https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
 
 div{
-    width: 60%;
-    text-align: right;
+font-size: 50pt;
+color: white;
+margin-top: -.7em;
+margin-left: -.7em;
 }
 
-
-ul{
-    display: flex;  
+article div1{
+text-align: center;
+color: white;
 }
 
-li{
-    margin-right:20px;
-    color: darkgreen; 
-    list-style-type: none;
-    list-style-position: right;
+article div2{
+text-align: center;
+margin-left: 2.3em;
 }
 
-
-#ama{
-    color: goldenrod;
-    text-align: center;
+article div3{
+margin-left: 6.1em;
 }
 
-main
- {
- height: 60vh;
- background: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
- }
+article div4{
+margin-left: 6.1em;
+}
 
- #w
- {
- color: white;
- text-align: right;
- font-size: 60px;
- width: 55%;
- }
+span{
+font-weight: bold;
+font-size: 70pt;
+}
 
- p
- {
- color: black;
- text-align: center;
- }
+footer{
+padding: 3%;
+text-align: center;
+fond-size:1em;
+}
 
- .ret
- {
- margin: 10px;
- }
+footer h2{
+color: #926C15;
+}
 
- img
- {
- height: 5vh;
- }
-
- span
- {
- font-size: 75px;
- text-width: bold;
- }
-
- nav
- {
- display: flex;
- justify-content: space-between;
- width: 100%;
- }
+footer p{
+color:gray;
+}
 
           
  Ingresa el link a tu página del proyecto final
